@@ -1,1 +1,11 @@
-
+#一、f后面是""，name'age是变量
+print(f"name:{name}\nage:{age}")
+#二、lis是列表
+lis=['acb','tyu','jjj']
+print('_'.join(lis))
+#三、a,b是变量
+a='ttt'
+b='ggg'
+print("{}_{}".format(a,b))
+#四、字符串
+print('ffff'+'.mp3')
