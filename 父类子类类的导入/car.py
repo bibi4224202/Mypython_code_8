@@ -2,6 +2,8 @@ class Car:
     def __init__(self,name):
         self.name=name
         self.mile=0
+        self.__oil=93
+        #私有属性或变量，前加__,不能直接访问，但可用my_cai._Car__oil来访问
 
     def read_mile(self):
         mi=f"{self.mile}"
@@ -45,4 +47,18 @@ print(my_car.mile)
 3  import car
 4  from car import *
 5  from car import ElecctricCar as EC
+多个继承：
+class C(A,B)
+私有属性，前加__
+组合
+class A:
+    def __init__(self,x):
+        self.x=x
+class B:
+    def __init__(self,x):
+        self.x=x  
+class C:
+    def __init__(self,x,y):
+        self.a=A(x)
+        self.b=B(y)
 '''
