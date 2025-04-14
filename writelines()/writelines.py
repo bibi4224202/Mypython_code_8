@@ -1,0 +1,15 @@
+#分行加换行符\n
+f=open('t1.txt','w')
+l=['ff\nhh\njj']
+f.writelines(l)
+f.close()
+#输出：
+ff
+hh
+jj
+#列表元素为字符串时，则连起来
+f=open('t1.txt','w')
+l=['ff','hh','jj']
+f.writelines(l)
+f.close()
+#输出：ffhhjj
