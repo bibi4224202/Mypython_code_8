@@ -15,6 +15,9 @@ print(list9)
 list10 = [key + str(value) for key, value in dict1.items()]
 print(list10)
 
+#表达式为一个元素
+list10 = [(key , value) for key, value in dict1.items()]
+print(list10)
 list_1 = ['hello', 10, 'Abc', 'asBd', True]
 # 方式一：
 newlist_1 = []
