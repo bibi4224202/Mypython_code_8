@@ -24,5 +24,13 @@ ret1 = isinstance(a, (str, int, list))
 
 print(ret1)
 
+4  data = input()
+  while data:
+     data = input()  #连续输入2个回车键时退出循环
 
+   while Ture:      #当输入q时，退出循环
+      s=input()
+      if s=='q':
+        break
+     
 
