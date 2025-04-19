@@ -34,5 +34,9 @@ print(ret1)
         break
      
 5 字典键不能式列表
+
 6 汉字用utf-8编码，占3个字节
+
 7 1//0.1=9.0
+
+8 turtle 画内接6边形circle(60,steps=6)
